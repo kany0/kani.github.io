@@ -4,6 +4,9 @@
 .header h2 {
   text-align: right;
 }
+.header-block h1 {
+  font-size: 300%
+}
 .content {
   background-color: #222;
   color: wheat;
