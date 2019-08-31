@@ -39,5 +39,6 @@ body {
   text-align: center;
 }
 img {
-  width: 100% !important;
+  width: 50% !important;
+  padding: 15px;
 }
