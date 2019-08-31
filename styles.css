@@ -21,3 +21,6 @@
 body {
   color: #2b2b2b;
 }
+#carousel {
+  max-width: 90vw;
+}
