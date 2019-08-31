@@ -40,5 +40,7 @@ body {
 }
 img {
   width: 50% !important;
-  padding: 15px;
+}
+#main-icon {
+  padding-bottom: 18px;
 }
