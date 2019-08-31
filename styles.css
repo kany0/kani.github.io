@@ -24,4 +24,5 @@ body {
 }
 #carousel {
   max-width: 90vw;
+  padding-bottom: 5vw;
 }
