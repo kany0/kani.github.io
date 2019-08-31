@@ -15,3 +15,9 @@
 .header h4 {
   text-align: right;
 }
+#header-box .text {
+  color: #e6e6e6;
+}
+body {
+  color: #2b2b2b;
+}
