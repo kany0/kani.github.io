@@ -28,3 +28,6 @@ body {
   max-width: 90vw;
   padding-bottom: 5vw;
 }
+.col h4 {
+  text-align: center;
+}
