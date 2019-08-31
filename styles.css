@@ -12,9 +12,6 @@
   text-align: center;
   width: 60%; /* Set the width of the positioned div */
 }
-.header {
-  height: 40px;
-}
 .header h4 {
   text-align: right;
 }
