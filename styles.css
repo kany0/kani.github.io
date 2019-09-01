@@ -44,8 +44,11 @@ img {
 #main-icon {
   padding-bottom: 18px;
 }
-img#drawing {
-  margin top: -50px;
+img#drawing1 {
+  margin-top: -80px;
+}
+img#drawing2 {
+  margin-top: -100px;
 }
 .portfolio-container div img {
   min-height: 100%;
