@@ -66,7 +66,8 @@ img#drawing2 {
 #navigation {
   padding-bottom: 1vw;
   padding-top: 1vw;
-  background-color: lightgray;
+  background-color: whitesmoke;
+  border-bottom: 3px solid lightgray;
 }
 .row.m-0 {
   padding-top: 6vw;
