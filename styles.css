@@ -8,9 +8,9 @@
   margin: 0 auto;
   left: 0;
   right: 0;
-  top: 40%; /* Adjust this value to move the positioned div up and down */
+  top: 60%; /* Adjust this value to move the positioned div up and down */
   text-align: center;
-  width: 60%; /* Set the width of the positioned div */
+  width: 80%; /* Set the width of the positioned div */
 }
 .header h4 {
   text-align: right;
@@ -20,9 +20,14 @@
 #header-box .text {
   color: #5c5c5c;
   font-family: 'Poppins', sans-serif;
-  text-transform: uppercase;
-  text-decoration: underline;
 }
+.button {
+  border-width: 2px;
+  border-style: solid;
+  border-color: lightgrey;
+  width: 30%;
+}
+.button h2 {
 #header-box h1 {
   font-size: 40pt;
   font-weight: bold;
