@@ -68,3 +68,6 @@ img#drawing2 {
   padding-top: 1vw;
   background-color: lightgray;
 }
+.row.m-0 {
+  padding-top: 6vw;
+}
