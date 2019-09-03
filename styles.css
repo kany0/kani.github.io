@@ -8,7 +8,7 @@
   margin: 0 auto;
   left: 0;
   right: 0;
-  top: 60%; /* Adjust this value to move the positioned div up and down */
+  top: 42%; /* Adjust this value to move the positioned div up and down */
   text-align: center;
   width: 80%; /* Set the width of the positioned div */
 }
@@ -16,6 +16,9 @@
   text-align: right;
   font-size: 14pt;
   font-family: 'Playfair display', serif;
+}
+h3 {
+  font-size: 9pt;
 }
 #header-box .text {
   color: #5c5c5c;
@@ -38,8 +41,8 @@ body {
 }
 #carousel {
   max-width: 100vw;
-  padding-bottom: 1vw;
-  padding-top: 1vw;
+  padding-bottom: 1em;
+  padding-top: 1em;
   padding-left: 10vw;
   padding-right: 10vw;
   background-color: grey;
@@ -47,6 +50,7 @@ body {
 }
 .col h4 {
   text-align: center;
+  font-size: 10pt;
 }
 img {
   width: 100% !important;
@@ -75,5 +79,5 @@ img#drawing2 {
   border-bottom: 3px solid lightgray;
 }
 .row.m-0 {
-  padding-top: 6vw;
+  padding-top: 6em;
 }
