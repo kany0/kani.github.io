@@ -15,14 +15,14 @@
 .header h4 {
   text-align: right;
   font-size: 14pt;
-  font-family: 'Playfair display', serif;
+  font-family: 'Oswald', sans-serif;
 }
 h3 {
   font-size: 9pt;
 }
 #header-box .text {
-  color: #5c5c5c;
-  font-family: 'Poppins', sans-serif;
+  color: #7c7c7c;
+  font-family: 'Oswald', sans-serif;
 }
 .button {
   border-width: 2px;
