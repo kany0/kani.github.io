@@ -68,6 +68,14 @@ img#drawing2 {
 .carousel-item {
   background-size: cover;
 }
+.carousel-item.active {
+  display: table !important;
+}
+.carousel-item > div {
+  text-align: center !important;
+  display: table-cell !important;
+  vertical-align: middle !important;
+}
 .carousel-item button:hover {
   border-color: gray;
   color: gray;
