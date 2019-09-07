@@ -83,12 +83,14 @@ img#drawing2 {
 }
 .image-caption h5 {
   font-size: 11pt;
+  color: #4d4d4d;
 }
 .col-6 h3 {
   font-size: 19pt;
   text-transform: uppercase;
   font-family: 'Oswald', sans-serif;
   padding-top: .5em;
+  color: gray;
 }
 .centered {
   text-align: center;
@@ -96,9 +98,16 @@ img#drawing2 {
 #gallery-button {
   background-color: white;
   font-family: 'Oswald';
-  text-trandform: uppercase;
+  text-transform: uppercase;
   margin-bottom: 2em;
   border-color: lightgray;
   color: gray;
   border-width: 2px;
+}
+.info-box {
+  border: lightgray 1px solid;
+  border-radius: .5em;
+  box-shadow: 0 0 15px 0 rgba(0,0,0,2);
+  margin: auto 0;
+  color: #4d4d4d;
 }
