@@ -38,10 +38,10 @@ img#drawing1 {
 img#drawing2 {
   margin-top: -100px;
 }
-.portfolio-container div img {
+#portfolio-container img {
   min-height: 100%;
 }
-.portfolio-container > div {
+#portfolio-container > div > div {
   overflow: hidden;
 }
 #navigation {
@@ -126,6 +126,13 @@ img#drawing2 {
 #portfolio-container > .first-row > div {
   height: 214px;
 }
-#portfolio-container > div:not(:last-child) > div {
+#portfolio-container > :not(:last-child) > div {
+  margin-bottom: 2em;
+}
+#portfolio-container {
+  margin-bottom: 3em;
+}
+#contact.footer.row > div {
+  margin-top: 5em;
   margin-bottom: 2em;
 }
