@@ -84,6 +84,10 @@ img#drawing2 {
   padding-top: 6em;
 }
   
+.carousel, .carousel-inner, .carousel-item {
+  height: 100vh;
+}
+
 #first-image {
   background-image: url('7.png');
 }
@@ -98,7 +102,6 @@ img#drawing2 {
   
 .carousel-item {
   background-size: cover;
-  height: 100vh
 }
   
 .carousel-item button:hover {
