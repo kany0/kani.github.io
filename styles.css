@@ -123,7 +123,7 @@ img#drawing2 {
 .portfolio-container.row.second-row > div {
   height: 464px;
 }
-.portfolio-container.row.first-row {
+.portfolio-container.row.first-row > div {
   padding-bottom: 2em;
   height: 214px;
 }
