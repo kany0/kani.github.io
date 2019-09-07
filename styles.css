@@ -124,6 +124,6 @@ img#drawing2 {
   height: 464px;
 }
 .portfolio-container.row.first-row > div {
-  padding-bottom: 2em;
+  margin-bottom: 2em;
   height: 214px;
 }
