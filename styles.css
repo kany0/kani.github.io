@@ -56,8 +56,10 @@ img {
   width: 100% !important;
 }
 #main-icon {
-  padding-bottom: 18px;
   border-radius: 100%;
+}
+.image-caption {
+  padding-top: 1em;
 }
 img#drawing1 {
   margin-top: -80px;
