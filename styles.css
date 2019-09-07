@@ -83,32 +83,25 @@ img#drawing2 {
 .row.m-0 {
   padding-top: 6em;
 }
-  
 .carousel, .carousel-inner, .carousel-item {
   height: 100vh;
 }
-
-#first-image {
+.first-image {
   background-image: url('7.png');
 }
-  
-#second-image {
+.second-image {
   background-image: url('3.png');
 }
-  
-#third-image {
+.third-image {
   background-image: url('9.png');
 }
-  
 .carousel-item {
   background-size: cover;
 }
-  
 .carousel-item button:hover {
   border-color: gray;
   color: gray;
 }
-  
 .carousel-item button {
   z-index: 10;
   width: 16em;
