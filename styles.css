@@ -1,22 +1,3 @@
-.box {
-  position: relative;
-  display: inline-block; /* Make the width of box same as image */
-}
-.box .text {
-  position: absolute;
-  z-index: 999;
-  margin: 0 auto;
-  left: 0;
-  right: 0;
-  top: 42%; /* Adjust this value to move the positioned div up and down */
-  text-align: center;
-  width: 80%; /* Set the width of the positioned div */
-}
-.header h4 {
-  text-align: right;
-  font-size: 14pt;
-  font-family: 'Oswald', sans-serif;
-}
 h3 {
   font-size: 9pt;
 }
@@ -33,15 +14,6 @@ h3 {
 body {
   color: #2b2b2b;
   background-color: whitesmoke;
-}
-#carousel {
-  max-width: 100vw;
-  padding-bottom: 1em;
-  padding-top: 1em;
-  padding-left: 10vw;
-  padding-right: 10vw;
-  background-color: grey;
- 
 }
 .col h4 {
   text-align: center;
@@ -120,4 +92,13 @@ img#drawing2 {
 }
 .centered {
   text-align: center;
+}
+#gallery-button {
+  background-color: white;
+  font-family: 'Oswald';
+  text-trandform: uppercase;
+  margin-bottom: 2em;
+  border-color: lightgray;
+  color: gray;
+  border-width: 2px;
 }
