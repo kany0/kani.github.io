@@ -115,3 +115,6 @@ img#drawing2 {
 .portfolio-container.row.second-row > div {
   height: 464px;
 }
+.portfolio-container.row.first-row {
+  padding-bottom: 2em;
+}
