@@ -118,3 +118,6 @@ img#drawing2 {
   font-family: 'Oswald', sans-serif;
   padding-top: .5em;
 }
+.centered {
+  text-align: center;
+}
