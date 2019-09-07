@@ -71,6 +71,12 @@ img#drawing2 {
 .carousel-item.active {
   display: table !important;
 }
+.carousel-item > div > :not(.active) {
+  opacity: 0;
+}
+.carousel-item > div > :not(.active) {
+  transition: opacity 0.25s;
+}
 .carousel-item > div {
   text-align: center !important;
   display: table-cell !important;
