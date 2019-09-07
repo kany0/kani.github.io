@@ -112,3 +112,6 @@ img#drawing2 {
   margin: auto 0;
   color: #4d4d4d;
 }
+.portfolio-container.row.second-row > div {
+  height: 464px;
+}
