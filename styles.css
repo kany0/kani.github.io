@@ -42,7 +42,6 @@ img#drawing2 {
   min-height: 100%;
 }
 .portfolio-container > div {
-  height: 200px;
   overflow: hidden;
 }
 #navigation {
