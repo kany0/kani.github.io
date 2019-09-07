@@ -120,10 +120,12 @@ img#drawing2 {
   margin: auto 0;
   color: #4d4d4d;
 }
-.portfolio-container.row.second-row > div {
+#portfolio-container > .second-row > div {
   height: 464px;
 }
-.portfolio-container.row.first-row > div {
-  margin-bottom: 2em;
+#portfolio-container > .first-row > div {
   height: 214px;
+}
+#portfolio-container > div:not(:last-child) > div {
+  margin-bottom: 2em;
 }
