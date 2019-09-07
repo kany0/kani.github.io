@@ -81,13 +81,13 @@ img#drawing2 {
 .carousel, .carousel-inner, .carousel-item {
   height: 100vh;
 }
-.first-image {
+#first-image {
   background-image: url('7.png');
 }
-.second-image {
+#second-image {
   background-image: url('3.png');
 }
-.third-image {
+#third-image {
   background-image: url('9.png');
 }
 .carousel-item {
