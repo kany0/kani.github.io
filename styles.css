@@ -30,6 +30,7 @@ img {
 }
 .image-caption {
   padding-top: 1em;
+  color: #4d4d4d;
 }
 img#drawing1 {
   margin-top: -80px;
@@ -100,6 +101,7 @@ img#drawing2 {
   font-family: 'Oswald';
   text-transform: uppercase;
   margin-bottom: 2em;
+  margin-top: 7em;
   border-color: lightgray;
   color: gray;
   border-width: 2px;
