@@ -113,22 +113,3 @@ img#drawing2 {
   margin: auto 0;
   color: #4d4d4d;
 }
-portfolio-container {
-  position: relative;
-  height: 580px; 
-}
-portfolio-image1 {
-  position: absolute;
-  left: 0px;
-  top: 0px;
-}
-portfolio-image2 {
-  position: absolute;
-  left: 0px;
-  top: 0px;
-}
-portfolio-image3 {
-  position: absolute;
-  left: 740px;
-  top: 0px;
-}
