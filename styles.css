@@ -66,6 +66,10 @@ img#drawing2 {
 #third-image {
   background-image: url('9.png');
 }
+body::after{ /* Carousel preload */
+   position:absolute; width:0; height:0; overflow:hidden; z-index:-1; // hide preloader images
+   content:url(7.png) url(3.png) url(9.png); // load preloader images
+}
 .carousel-item {
   background-size: cover;
 }
