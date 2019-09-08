@@ -71,10 +71,10 @@ img#drawing2 {
 .carousel-item.active {
   display: table !important;
 }
-.carousel-item > div > :not(.active) {
+.carousel-item:not(.active) > div {
   opacity: 0;
 }
-.carousel-item > div > :not(.active) {
+.carousel-item:not(.active) > div {
   transition: opacity 0.25s;
 }
 .carousel-item > div {
