@@ -143,7 +143,12 @@ body::after{ /* Carousel preload */
 #portfolio-container {
   margin-bottom: 3em;
 }
-#contact.footer.row > div {
-  margin-top: 5em;
-  margin-bottom: 2em;
+.footer-contact > div {
+  margin: 5em;
+  border: 2px solid lightgray;
+  padding: 3em;
+}
+.footer-contact h4 {
+  font-family: 'Oswald';
+  padding-bottom: 1em;
 }
