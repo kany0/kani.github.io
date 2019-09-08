@@ -123,7 +123,7 @@ img#drawing2 {
 .info-box {
   border: lightgray 1px solid;
   border-radius: .5em;
-  box-shadow: 0 0 15px 0 rgba(0,0,0,2);
+  box-shadow: 5px 5px 8px 0 #a6a6a6;
   margin: auto 0;
   color: #4d4d4d;
 }
