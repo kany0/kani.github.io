@@ -55,6 +55,7 @@ img#drawing2 {
 }
 .carousel, .carousel-inner, .carousel-item {
   height: 100vh;
+  max-height: 50vw;
 }
 #first-image {
   background-image: url('7.png');
