@@ -97,13 +97,15 @@ body::after{ /* Carousel preload */
   font-size: 11pt;
   color: #4d4d4d;
 }
-.col-6 h3 {
+.info-box h3 {
   font-size: 19pt;
   text-transform: uppercase;
   font-family: 'Oswald', sans-serif;
   padding-top: .5em;
   color: gray;
 }
+.info-box p {
+  font-size:
 .centered {
   text-align: center;
 }
@@ -121,7 +123,8 @@ body::after{ /* Carousel preload */
   border: lightgray 1px solid;
   border-radius: .5em;
   box-shadow: 5px 5px 8px 0 #a6a6a6;
-  margin: auto 0;
+  margin-right: 4em;
+  padding: 2em;
   color: #4d4d4d;
 }
 #portfolio-container > .second-row > div {
