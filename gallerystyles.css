@@ -1,18 +1,31 @@
-.title {
+.page-title {
   padding-left: 3.5em;
   padding-top: 13em;
   padding-bottom: 2em;
 }
-.title h3 {
+.page-title h3 {
   font-size: 22pt;
   font-family: 'Oswald';
   padding-bottom: .5em;
 }
-.title h4 {
+.page-title h4 {
   font-size: 11pt;
-.naw-item {
+.nav-item {
   padding-left: 3em;
 }
 .home-link {
   padding-bottom: 1em;
+}
+.carousel-item {
+  height: 100%;
+}
+.carousel-item > img {
+  max-height: 100%;
+  max-width: 100%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
 }
