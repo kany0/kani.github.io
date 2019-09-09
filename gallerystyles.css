@@ -19,7 +19,7 @@
 .carousel-item {
   height: 100%;
 }
-.carousel-item > img {
+.carousel-inner.carousel-item > img {
   max-height: 100%;
   max-width: 100%;
   position: absolute;
