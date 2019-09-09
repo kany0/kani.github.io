@@ -18,16 +18,31 @@
 .nav {
   padding-left: 3em;
 }
-.carousel-item {
+.carousel-inner, .carousel-item {
   height: 100%;
 }
-.carousel-inner.carousel-item > img {
-  max-height: 100%;
-  max-width: 100%;
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  margin: auto;
+.carousel-item {
+  background-position: center;
+  background-repeat: no-repeat;
+}
+#first-slide {
+  background-image: url('bunkbed.png');
+}
+#second-slide {
+  background-image: url('glassdrawing.png');
+}
+#third-slide {
+  background-image: url('greenwood (2).png');
+}
+#fourth-slide {
+  background-image: url('kansi.jpg');
+}
+#fifth-slide {
+  background-image: url('patio.png');
+}
+#sixth-slide {
+  background-image: url('sauna6.png');
+}
+#seventh-slide {
+  background-image: url('tabledrawing.png');
 }
