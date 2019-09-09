@@ -1,20 +1,22 @@
 .page-title {
-  padding-left: 3.5em;
-  padding-top: 13em;
-  padding-bottom: 2em;
+  padding-left: 4em;
+  padding-top: 14em;
+  padding-bottom: 1em;
 }
 .page-title h3 {
-  font-size: 22pt;
+  font-size: 24pt;
   font-family: 'Oswald';
-  padding-bottom: .5em;
+  padding-bottom: .3em;
 }
 .page-title h4 {
   font-size: 11pt;
-.nav-link {
-  padding-left: 3em;
 }
 .home-link {
-  padding-bottom: 1em;
+  padding-bottom: 22em;
+  padding-left: 3em;
+}
+.nav {
+  padding-left: 3em;
 }
 .carousel-item {
   height: 100%;
