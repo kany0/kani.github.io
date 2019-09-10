@@ -28,6 +28,12 @@ body {
   font-size: 11pt;
   padding-left: 2em;
 }
+.nav-main-color {
+  color: gray;
+}
+.nav-color {
+  color: gray;
+}
 .carousel {
   height: 100vh;
   max-height: 50vw;
