@@ -15,11 +15,22 @@ body {
   font-size: 11pt;
 }
 .home-link {
-  padding-bottom: 22em;
+  padding-bottom: 18em;
   padding-left: 4em;
 }
 .nav {
   padding-left: 3em;
+}
+.nav-item:first-child {
+  font-weight: bold;
+}
+.nav-item:not(:first-child) {
+  font-size: 11pt;
+  padding-left: 2em;
+}
+.carousel {
+  height: 100vh;
+  max-height: 50vw;
 }
 .carousel-inner, .carousel-item {
   height: 100%;
