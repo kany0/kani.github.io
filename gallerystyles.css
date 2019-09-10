@@ -66,3 +66,6 @@ body {
 .left-arrow {
   color: #e5ff00;
 }
+.border {
+  border-right: solid 3px grey;
+}
