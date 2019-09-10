@@ -69,3 +69,7 @@ body {
 .border {
   border-right: solid 3px grey;
 }
+.photo-row {
+  height: 100%;
+  max-height: 100px;
+}
