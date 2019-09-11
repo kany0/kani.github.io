@@ -74,10 +74,10 @@ body {
   background-image: url('photos/tabledrawing.png');
 }
 .right-arrow {
-  color: #e5ff00;
+  color: yellow;
 }
 .left-arrow {
-  color: #e5ff00;
+  color: yellow;
 }
 .border {
   border-right: solid 3px grey;
