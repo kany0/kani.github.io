@@ -86,6 +86,10 @@ body {
   height: 100%;
   max-height: 100px;
 }
+.previews > img {
+  height: 250px;
+  padding: 1em;
+}
 h2 {
   font-family: 'Oswald';
   font-size: 20pt;
