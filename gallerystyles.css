@@ -17,6 +17,10 @@ body {
 .home-link {
   padding-bottom: 18em;
   padding-left: 4em;
+  color: gray;
+}
+.home-link> a:hover {
+  color: #4c6170;
 }
 .nav {
   padding-left: 3em;
@@ -33,6 +37,9 @@ body {
 }
 .nav-color {
   color: gray;
+}
+.nav-item > a:hover {
+  color: #4c6170;
 }
 .carousel {
   height: 100vh;
