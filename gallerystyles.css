@@ -14,13 +14,13 @@ body {
 .page-title h4 {
   font-size: 11pt;
 }
-.home-link {
+.home-link > a {
   padding-bottom: 18em;
   padding-left: 4em;
   color: gray;
 }
 .home-link> a:hover {
-  color: #4c6170;
+  color: #355378;
 }
 .nav {
   padding-left: 3em;
