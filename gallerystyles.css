@@ -43,7 +43,7 @@ body {
 }
 .carousel-background {
   background-color: grey;
-  margin-top: 2em;
+  margin: 2em;
 }
 .carousel {
   height: 100vh;
