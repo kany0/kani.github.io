@@ -14,8 +14,9 @@ body {
 .page-title h4 {
   font-size: 11pt;
 }
-.home-link > a {
+.home-link {
   padding-bottom: 18em;
+.home-link > a {
   padding-left: 4em;
   color: gray;
 }
@@ -42,8 +43,8 @@ body {
   color: #4c6170;
 }
 .carousel-background {
-  background-color: grey;
-  margin: 2em;
+  background-color: #424242;
+  padding: 2em;
 }
 .carousel {
   height: 100vh;
@@ -115,7 +116,6 @@ h2 {
 }
 .ux-photos {
   max-height: 250px;
-  height: 100%;
 }
 .ux-photo {
   width: 100% !important;
@@ -126,6 +126,6 @@ ux-photo1 {
 ux-photo2 {
   margin-top: -4px;
 }
-#ux-container > div > div {
+#ux-container {
   overflow: hidden;
 }
