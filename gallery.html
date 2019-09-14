@@ -11,11 +11,11 @@
 
     <!-- Load my CSS -->
     <link rel="stylesheet" href="gallerystyles.css">
-    
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.css" integrity="sha256-piqEf7Ap7CMps8krDQsSOTZgF+MU/0MPyPW2enj5I40=" crossorigin="anonymous" />
-    
+
     <link href="https://fonts.googleapis.com/css?family=Montserrat|Poppins&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Oswald&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css?family=Oswald&display=swap" rel="stylesheet">
 
     <!-- Title -->
     <title>Gallery</title>
@@ -116,9 +116,9 @@
         <div id="ux-design">
             <h2>Ux-design</h2>
             <div class="projects-textbox">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore 
-                   magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo 
-                   consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                   magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                   consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
                    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
             </div>
             <div class="ux-container">
@@ -141,29 +141,69 @@
         <div class="wood-design">
             <h2>Wood design</h2>
             <div class="projects-textbox">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore 
-                   magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo 
-                   consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                   magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                   consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
                    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
             </div>
         </div>
         <div class="2D-design">
             <h2>2D-design</h2>
             <div class="projects-textbox">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore 
-                   magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo 
-                   consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                   magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                   consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
                    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
             </div>
         </div>
+        <div id="project-template-placeholder"></div>
      </div>
    </div>
+
+   <script id="project-template" type="text/x-handlebars-template">
+     {{#each projects}}
+      <div class="{{{class}}}">
+         <h2>{{title}}</h2>
+         <div class="projects-textbox">
+            <p>{{text}}</p>
+         </div>
+      </div>
+     {{/each}}
+   </script>
+
+   <!-- Bootstrap scripts -->
    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+   <!-- Handlebars scripts -->
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.2.0/handlebars.min.js" integrity="sha256-fIuSfP8oRbwWG9pRr+FaGfBU62kYY+7YqUsXSCgnYqM=" crossorigin="anonymous"></script>
+
+   <!-- My scripts -->
    <script type="text/javascript">
+       // Setup Carousel
        $('.carousel').carousel({
            interval: 1000 * 10,
            pause: "hover"
        });
+
+       // Setup Templates
+       var projectTemplate = document.getElementById("project-template").innerHTML;
+       var projectFactory = Handlebars.compile(projectTemplate);
+
+       // Define context
+       var context = {
+           projects: [
+               { title: "Title 1", class: "project-1", text: "Project text blah blah blah" },
+               { title: "Title 2", class: "project-2", text: "Project text blah blah blah" },
+               { title: "Title 3", class: "project-3", text: "Project text blah blah blah" }
+           ]
+       };
+
+       // Build html section
+       var htmlSection = projectFactory(context);
+
+       // Inject html
+       document.getElementById("project-template-placeholder").outerHTML = htmlSection;
+   </script>
 </body>
