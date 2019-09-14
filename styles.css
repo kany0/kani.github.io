@@ -144,7 +144,17 @@ body::after{ /* Carousel preload */
   border: 2px solid lightgray;
   padding: 3em;
 }
-.footer-contact h4 {
+.footer-contact > h4 {
   font-family: 'Oswald';
   padding-bottom: 1em;
+  padding-left: 1em;
+}
+.contact-list > li {
+  display: block;
+  line-height: 2.5em;
+}
+.contact-list li i {
+  width: 16px;
+  text-align: center;
+  margin-right: 1em;
 }
