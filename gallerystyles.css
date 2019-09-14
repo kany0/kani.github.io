@@ -3,7 +3,7 @@ body {
 }
 .page-title {
   padding-left: 4em;
-  padding-top: 14em;
+  padding-top: 19em;
   padding-bottom: 1em;
 }
 .page-title h3 {
@@ -12,10 +12,10 @@ body {
   padding-bottom: .3em;
 }
 .page-title h4 {
-  font-size: 11pt;
+  font-size: 12pt;
 }
 .home-link {
-  padding-bottom: 32em;
+  padding-bottom: 30em;
 }
 .home-link > a {
   padding-left: 4em;
