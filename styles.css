@@ -139,7 +139,7 @@ body::after{ /* Carousel preload */
 #portfolio-container {
   margin-bottom: 3em;
 }
-.footer-contact > div {
+.footer-contact {
   margin: 5em;
   border: 2px solid lightgray;
   padding: 3em;
