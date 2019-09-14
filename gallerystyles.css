@@ -112,7 +112,7 @@ h2 {
 .projects-textbox {
   margin: 2em;
 }
-#ux-container > img {
+.ux-container img {
   min-height: 100%;
 }
 .ux-photos {
@@ -121,7 +121,7 @@ h2 {
 .ux-photos > img {
   width: 100% !important;
 }
-#ux-container {
+.ux-photos {
   overflow: hidden;
   margin: 1em;
 }
