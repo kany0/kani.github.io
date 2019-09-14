@@ -181,17 +181,17 @@
 
    <!-- My scripts -->
    <script type="text/javascript">
-       // Setup Carousel
+       /* Setup Carousel */
        $('.carousel').carousel({
            interval: 1000 * 10,
            pause: "hover"
        });
 
-       // Setup Templates
+       /* Setup Templates */
        var projectTemplate = document.getElementById("project-template").innerHTML;
        var projectFactory = Handlebars.compile(projectTemplate);
 
-       // Define context
+       /* Define context */
        var context = {
            projects: [
                { title: "Title 1", class: "project-1", text: "Project text blah blah blah" },
@@ -200,10 +200,10 @@
            ]
        };
 
-       // Build html section
+       /* Build html section */
        var htmlSection = projectFactory(context);
 
-       // Inject html
+       /* Inject html */
        document.getElementById("project-template-placeholder").outerHTML = htmlSection;
    </script>
 </body>
