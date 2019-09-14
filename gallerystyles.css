@@ -120,12 +120,6 @@ h2 {
 .ux-photos > img {
   width: 100% !important;
 }
-ux-photo1 {
-  margin-top: -20px;
-}
-ux-photo2 {
-  margin-top: -4px;
-}
 #ux-container {
   overflow: hidden;
 }
