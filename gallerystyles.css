@@ -117,7 +117,7 @@ h2 {
 .ux-photos {
   max-height: 250px;
 }
-.ux-photo {
+.ux-photos > img {
   width: 100% !important;
 }
 ux-photo1 {
