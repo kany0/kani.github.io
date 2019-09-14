@@ -158,3 +158,9 @@ body::after{ /* Carousel preload */
   text-align: center;
   margin-right: 1em;
 }
+.contact-list > li > a {
+  color: #003f66;
+}
+.contact-list > li > a:hover {
+  color: #0f4e96;
+}
