@@ -105,7 +105,8 @@ body::after{ /* Carousel preload */
   color: gray;
 }
 .info-box p {
-  font-size:
+  font-size: 12pt;
+}
 .centered {
   text-align: center;
 }
