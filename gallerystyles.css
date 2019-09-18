@@ -112,16 +112,16 @@ h2 {
 .projects-textbox {
   margin: 2em;
 }
-.ux-container img {
+.project-container img {
   min-height: 100%;
 }
-.ux-photos {
+.project-photos {
   max-height: 436px;
   overflow: hidden;
 }
-.ux-photos > img {
+.project-photos > img {
   width: 100% !important;
 }
-.ux-container {
+.project-container {
   margin: 4em;
 }
