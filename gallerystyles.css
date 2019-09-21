@@ -125,3 +125,7 @@ h2 {
 .project-container {
   margin: 4em;
 }
+.collapse-photos {
+  height: 100%;
+  width: 200px;
+}
